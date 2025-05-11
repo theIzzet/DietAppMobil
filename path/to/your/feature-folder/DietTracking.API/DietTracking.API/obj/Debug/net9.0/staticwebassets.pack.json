@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DietTracking.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DietTracking.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.DietTracking.API.props",
+      "PackagePath": "build\\DietTracking.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.DietTracking.API.props",
+      "PackagePath": "buildMultiTargeting\\DietTracking.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.DietTracking.API.props",
+      "PackagePath": "buildTransitive\\DietTracking.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,1361 @@
+{
+  "Version": 1,
+  "Hash": "xIWsLoXHIH63z+8s2zP5ygeQ7g9U+VLdZxaiW5Y82sQ=",
+  "Source": "DietTracking.API",
+  "BasePath": "_content/DietTracking.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DietTracking.API\\wwwroot",
+      "Source": "DietTracking.API",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Certificates/21f29406-397a-44c8-8473-4957dfba05ae#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zg7itfehw2",
+      "Integrity": "U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Certificates/6a766961-a3a5-4342-a13d-291937a000a8#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zg7itfehw2",
+      "Integrity": "U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Certificates/a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8he4iiqh5t",
+      "Integrity": "tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Dietitian/Certificates/0d1be873-f379-4896-abfa-87e61a5438d9#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8he4iiqh5t",
+      "Integrity": "tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Dietitian/Certificates/4ea0b716-c8ea-41a4-b816-82cf7569ab32#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "keg0mz4tvh",
+      "Integrity": "DBXl4Mgonn42NOvrijwYUK8U7qO3DTrWWYzHlzbMjRI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Measurements/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8he4iiqh5t",
+      "Integrity": "tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Measurements/45d3595a-de9b-42a0-b3c4-d41f613a62e4#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8he4iiqh5t",
+      "Integrity": "tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Measurements/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8he4iiqh5t",
+      "Integrity": "tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Measurements/f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8he4iiqh5t",
+      "Integrity": "tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/TestResults/55c1533b-b799-4067-862c-3cedc1411041#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8he4iiqh5t",
+      "Integrity": "tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Transkripts/74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8he4iiqh5t",
+      "Integrity": "tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Transkripts/bc27e455-0ed5-4f40-95f4-2c59983d0318#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "emc0tzk936",
+      "Integrity": "5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Transkripts/bf477bda-1c62-4e6a-9d36-62d9c9380fde#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "emc0tzk936",
+      "Integrity": "5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Uploads/Certificates/21f29406-397a-44c8-8473-4957dfba05ae.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "304437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Certificates/21f29406-397a-44c8-8473-4957dfba05ae.zg7itfehw2.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "304437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zg7itfehw2"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Certificates/21f29406-397a-44c8-8473-4957dfba05ae.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Certificates/6a766961-a3a5-4342-a13d-291937a000a8.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "304437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Certificates/6a766961-a3a5-4342-a13d-291937a000a8.zg7itfehw2.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "304437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zg7itfehw2"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Certificates/6a766961-a3a5-4342-a13d-291937a000a8.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+/Q+D23TnFSD8YmJMksFW0MLZK1Mv2orydfrcriaHo="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Certificates/a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.8he4iiqh5t.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 18:12:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8he4iiqh5t"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Certificates/a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Certificates/a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 18:12:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Dietitian/Certificates/0d1be873-f379-4896-abfa-87e61a5438d9.8he4iiqh5t.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 09:39:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8he4iiqh5t"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Dietitian/Certificates/0d1be873-f379-4896-abfa-87e61a5438d9.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Dietitian/Certificates/0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 09:39:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Dietitian/Certificates/4ea0b716-c8ea-41a4-b816-82cf7569ab32.keg0mz4tvh.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DBXl4Mgonn42NOvrijwYUK8U7qO3DTrWWYzHlzbMjRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 09:40:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "keg0mz4tvh"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Dietitian/Certificates/4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DBXl4Mgonn42NOvrijwYUK8U7qO3DTrWWYzHlzbMjRI="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Dietitian/Certificates/4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DBXl4Mgonn42NOvrijwYUK8U7qO3DTrWWYzHlzbMjRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 09:40:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DBXl4Mgonn42NOvrijwYUK8U7qO3DTrWWYzHlzbMjRI="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Measurements/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.8he4iiqh5t.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:29:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8he4iiqh5t"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Measurements/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Measurements/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:29:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Measurements/45d3595a-de9b-42a0-b3c4-d41f613a62e4.8he4iiqh5t.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:28:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8he4iiqh5t"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Measurements/45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Measurements/45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:28:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Measurements/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.8he4iiqh5t.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:29:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8he4iiqh5t"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Measurements/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Measurements/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:29:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Measurements/f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.8he4iiqh5t.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8he4iiqh5t"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Measurements/f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Measurements/f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/TestResults/55c1533b-b799-4067-862c-3cedc1411041.8he4iiqh5t.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:25:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8he4iiqh5t"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/TestResults/55c1533b-b799-4067-862c-3cedc1411041.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/TestResults/55c1533b-b799-4067-862c-3cedc1411041.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:25:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Transkripts/74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.8he4iiqh5t.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 18:12:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8he4iiqh5t"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Transkripts/74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Transkripts/74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 18:12:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Transkripts/bc27e455-0ed5-4f40-95f4-2c59983d0318.emc0tzk936.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emc0tzk936"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Transkripts/bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Transkripts/bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Transkripts/bf477bda-1c62-4e6a-9d36-62d9c9380fde.emc0tzk936.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emc0tzk936"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Transkripts/bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Transkripts/bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
+      "AssetFile": "C:\\Users\\Kerem\\Desktop\\DietTracking.API (2)\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 17:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5mh0ovXQcKhJbq1+TgsvkLKylo+fohnRxnKK8Xqc9Q8="
+        }
+      ]
+    }
+  ]
+}
