@@ -1,6 +1,0 @@
-@DietTracking.API_HostAddress = http://localhost:5063
-
-GET {{DietTracking.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

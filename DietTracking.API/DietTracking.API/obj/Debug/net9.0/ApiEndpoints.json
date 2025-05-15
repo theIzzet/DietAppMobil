@@ -1,0 +1,769 @@
+[
+  {
+    "ContainingType": "DietTracking.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DietTracking.API.DTO.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.AuthController",
+    "Method": "RegisterDanisan",
+    "RelativePath": "api/auth/register/danisan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.AuthController",
+    "Method": "RegisterDiyetisyen",
+    "RelativePath": "api/auth/register/diyetisyen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GraduationCertificate",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Transkript",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.ChatController",
+    "Method": "GetHistory",
+    "RelativePath": "api/chat/messages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dietitianId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.ChatController",
+    "Method": "Send",
+    "RelativePath": "api/chat/messages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.ChatSendDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "GetAllFormsOfPatient",
+    "RelativePath": "api/dietitian/all/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "ListCertificates",
+    "RelativePath": "api/dietitian/certificates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "UploadCertificate",
+    "RelativePath": "api/dietitian/certificates",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CertificateName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateReceived",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "QualificationUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Issuer",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "UpdateCertificate",
+    "RelativePath": "api/dietitian/certificates/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "CertificateName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateReceived",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "QualificationUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Issuer",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "DeleteCertificate",
+    "RelativePath": "api/dietitian/certificates/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "CreateDietPlan",
+    "RelativePath": "api/dietitian/diet-plans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.UpsertDietPlanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "UpdateDietPlan",
+    "RelativePath": "api/dietitian/diet-plans/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.UpsertDietPlanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "DeleteDietPlan",
+    "RelativePath": "api/dietitian/diet-plans/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "GetLatestDietPlan",
+    "RelativePath": "api/dietitian/diet-plans/latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "ListExperiences",
+    "RelativePath": "api/dietitian/experiences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "CreateExperience",
+    "RelativePath": "api/dietitian/experiences",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.UpsertExperienceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "UpdateExperience",
+    "RelativePath": "api/dietitian/experiences/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.UpsertExperienceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "DeleteExperience",
+    "RelativePath": "api/dietitian/experiences/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "ListPatients",
+    "RelativePath": "api/dietitian/patients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "AssignPatient",
+    "RelativePath": "api/dietitian/patients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.AssignPatientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "GetPatient",
+    "RelativePath": "api/dietitian/patients/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "DeletePatientAssignment",
+    "RelativePath": "api/dietitian/patients/{patientId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "GetDietitianProfile",
+    "RelativePath": "api/dietitian/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "CreateProfile",
+    "RelativePath": "api/dietitian/profile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "About",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfilePhoto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Specialties",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkHours",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClinicName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServiceDiets",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/dietitian/profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "About",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfilePhoto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Specialties",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkHours",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClinicName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServiceDiets",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DietitianController",
+    "Method": "DeleteProfile",
+    "RelativePath": "api/dietitian/profile",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "CreateOrUpdateAllForms",
+    "RelativePath": "api/patient/all",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.UserFormsCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "GetAllMyForms",
+    "RelativePath": "api/patient/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "ListBodyMeasurements",
+    "RelativePath": "api/patient/body-measurements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "AddBodyMeasurement",
+    "RelativePath": "api/patient/body-measurements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MeasuredAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Waist",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Hip",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Chest",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpperArm",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Thigh",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Neck",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "GetMyLatestDietPlan",
+    "RelativePath": "api/patient/diet_list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "CreateReview",
+    "RelativePath": "api/patient/dietitian-review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.CreateReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "GetReviews",
+    "RelativePath": "api/patient/dietitian-review",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dietitianId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "UploadTestResult",
+    "RelativePath": "api/patient/test-result",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TestName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Notes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "GetTestResults",
+    "RelativePath": "api/patient/test-result",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "ListWeightMeasurements",
+    "RelativePath": "api/patient/weight-measurements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.PatientController",
+    "Method": "AddWeightMeasurement",
+    "RelativePath": "api/patient/weight-measurements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MeasuredAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Weight",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
