@@ -1,6 +1,7 @@
 ﻿using DietTracking.API.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using DietApp.Entities;
 
 namespace DietTracking.API.Entities
 {
@@ -22,6 +23,13 @@ namespace DietTracking.API.Entities
         public string WorkHours { get; set; }                // örn “Hafta içi 09‑17”
         public string ClinicName { get; set; }               // aktif çalışılan kurum
         public string ServiceDiets { get; set; }             // verdiği diyet türleri (virgülle)
-    
+        public ICollection<DietType> DietTypes { get; set; } = new List<DietType>();
+
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
+
+        public ICollection<DietitianCertificate> DietitianCertificates { get; set; } = new List<DietitianCertificate>();
+
+        public ICollection<DietitianExperience> DietitianExperience { get; set; }= new List<DietitianExperience>();
+
     }
 }
