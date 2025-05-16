@@ -1,4 +1,5 @@
-﻿using DietTracking.API.Entities;
+﻿using DietApp.Entities;
+using DietTracking.API.Entities;
 using DietTracking.API.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -35,8 +36,9 @@ namespace DietTracking.API.Data
 
         public DbSet<ChatMessage> ChatMessages { get; set; }
 
+        public DbSet<DietType> DietTypes  => Set<DietType>();
 
-
+        public DbSet<Comment> Comments => Set<Comment>();
 
 
     }

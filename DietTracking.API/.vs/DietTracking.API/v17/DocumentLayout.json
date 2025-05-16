@@ -1,34 +1,170 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\diettracking.api\\diettracking.api\\diettracking.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\controllers\\diettypemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:controllers\\diettypemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\diettracking.api\\diettracking.api\\diettracking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\diettracking.api\\diettracking.api\\diettracking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\diettracking.api\\diettracking.api\\diettracking.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\diettracking.api\\diettracking.api\\diettracking.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\diettracking.api\\diettracking.api\\diettracking.api\\controllers\\dietitiancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\controllers\\dietitiancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:controllers\\dietitiancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\diettracking.api\\diettracking.api\\diettracking.api\\diettracking.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\dto\\dietitianprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:dto\\dietitianprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\dto\\addcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:dto\\addcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\dto\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:dto\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\dto\\dietitianprofiledetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:dto\\dietitianprofiledetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\dietitianprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\dietitianprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\dto\\diettypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:dto\\diettypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\diettracking.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:diettracking.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\dietitianpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\dietitianpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\createexperiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\createexperiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\dietitiancertificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\dietitiancertificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\dietitianexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\dietitianexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\dietitianreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\dietitianreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\dietplanentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\dietplanentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\foodhabit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\foodhabit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\goals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\goals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\lifestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\lifestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\physicalactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\physicalactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\diettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\diettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\dietplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\dietplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\personalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\personalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\validators\\lifestyledtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:validators\\lifestyledtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\validators\\medicalhistorydtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:validators\\medicalhistorydtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\dto\\diettypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:dto\\diettypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\entities\\testresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:entities\\testresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\diettracking.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:diettracking.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\migrations\\20250516002928_diettypemig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:migrations\\20250516002928_diettypemig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|c:\\users\\\u0130zzet\\desktop\\dietappmobil\\diettracking.api\\migrations\\20250516153543_commentmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1515A3-CA5A-3AC6-E94C-AB9D828D5255}|DietTracking.API.csproj|solutionrelative:migrations\\20250516153543_commentmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,93 +194,495 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
-              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "Controllers\\PatientController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AddCommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\AddCommentDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AddCommentDto.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\AddCommentDto.cs",
+              "RelativeToolTip": "DTO\\AddCommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:07:44.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T16:05:36.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\CommentDto.cs",
+              "RelativeDocumentMoniker": "DTO\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\CommentDto.cs",
+              "RelativeToolTip": "DTO\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:04:11.284Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DietitianController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Controllers\\DietitianController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DietitianController.cs",
-              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Controllers\\DietitianController.cs",
-              "RelativeToolTip": "Controllers\\DietitianController.cs",
-              "ViewState": "AgIAAH4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DietitianProfileDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\DietitianProfileDetailsDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DietitianProfileDetailsDto.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\DietitianProfileDetailsDto.cs",
+              "RelativeToolTip": "DTO\\DietitianProfileDetailsDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:07:40.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAmwKkAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:07:35.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-13T11:06:35.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T16:03:47.469Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-13T11:06:27.433Z",
+              "Title": "DietitianProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\DietitianProfileDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DietitianProfileDto.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\DietitianProfileDto.cs",
+              "RelativeToolTip": "DTO\\DietitianProfileDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:02:42.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DietTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\DietTypeDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DietTypeDto.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\DietTypeDto.cs",
+              "RelativeToolTip": "DTO\\DietTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:00:19.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250516153543_CommentMig.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Migrations\\20250516153543_CommentMig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250516153543_CommentMig.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Migrations\\20250516153543_CommentMig.cs",
+              "RelativeToolTip": "Migrations\\20250516153543_CommentMig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T15:35:43.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DietTracking.API.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
+              "RelativeDocumentMoniker": "DietTracking.API.csproj",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
+              "RelativeToolTip": "DietTracking.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T15:30:59.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "Entities\\ChatMessage.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\ChatMessage.cs",
+              "RelativeToolTip": "Entities\\ChatMessage.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T15:00:11.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Goals.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\Goals.cs",
+              "RelativeDocumentMoniker": "Entities\\Goals.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\Goals.cs",
+              "RelativeToolTip": "Entities\\Goals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T15:00:03.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Lifestyle.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\Lifestyle.cs",
+              "RelativeDocumentMoniker": "Entities\\Lifestyle.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\Lifestyle.cs",
+              "RelativeToolTip": "Entities\\Lifestyle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T15:00:03.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MedicalHistory.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\MedicalHistory.cs",
+              "RelativeDocumentMoniker": "Entities\\MedicalHistory.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\MedicalHistory.cs",
+              "RelativeToolTip": "Entities\\MedicalHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T15:00:02.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PersonalInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\PersonalInfo.cs",
+              "RelativeDocumentMoniker": "Entities\\PersonalInfo.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\PersonalInfo.cs",
+              "RelativeToolTip": "Entities\\PersonalInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:47:21.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Entities\\Comment.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\Comment.cs",
+              "RelativeToolTip": "Entities\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:39:00.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DietitianExperience.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianExperience.cs",
+              "RelativeDocumentMoniker": "Entities\\DietitianExperience.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianExperience.cs",
+              "RelativeToolTip": "Entities\\DietitianExperience.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:11:08.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LifestyleDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Validators\\LifestyleDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\LifestyleDtoValidator.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Validators\\LifestyleDtoValidator.cs",
+              "RelativeToolTip": "Validators\\LifestyleDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:35:37.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MedicalHistoryDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Validators\\MedicalHistoryDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\MedicalHistoryDtoValidator.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Validators\\MedicalHistoryDtoValidator.cs",
+              "RelativeToolTip": "Validators\\MedicalHistoryDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:35:28.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250516002928_DietTypeMig.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Migrations\\20250516002928_DietTypeMig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250516002928_DietTypeMig.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Migrations\\20250516002928_DietTypeMig.cs",
+              "RelativeToolTip": "Migrations\\20250516002928_DietTypeMig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:29:28.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:16:49.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:16:48.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA4wBEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:12:11.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Data\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Data\\DataSeeder.cs",
+              "RelativeToolTip": "Data\\DataSeeder.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwEsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:10:42.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DietTypeManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Controllers\\DietTypeManagementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DietTypeManagementController.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Controllers\\DietTypeManagementController.cs",
+              "RelativeToolTip": "Controllers\\DietTypeManagementController.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAuwBcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:00:26.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAqwJkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "DietPlanEntry.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietPlanEntry.cs",
+              "RelativeDocumentMoniker": "Entities\\DietPlanEntry.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietPlanEntry.cs",
+              "RelativeToolTip": "Entities\\DietPlanEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:05:33.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T22:20:14.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DietPlan.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietPlan.cs",
+              "RelativeDocumentMoniker": "Entities\\DietPlan.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietPlan.cs",
+              "RelativeToolTip": "Entities\\DietPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:19:56.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DietTypes.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\DietTypes.cs",
+              "RelativeDocumentMoniker": "DTO\\DietTypes.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DTO\\DietTypes.cs",
+              "RelativeToolTip": "DTO\\DietTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:07:23.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateExperienceDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\CreateExperienceDto.cs",
+              "RelativeDocumentMoniker": "Entities\\CreateExperienceDto.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\CreateExperienceDto.cs",
+              "RelativeToolTip": "Entities\\CreateExperienceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:04:37.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TestResult.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\TestResult.cs",
+              "RelativeDocumentMoniker": "Entities\\TestResult.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\TestResult.cs",
+              "RelativeToolTip": "Entities\\TestResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:04:34.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PhysicalActivity.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\PhysicalActivity.cs",
+              "RelativeDocumentMoniker": "Entities\\PhysicalActivity.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\PhysicalActivity.cs",
+              "RelativeToolTip": "Entities\\PhysicalActivity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:04:32.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FoodHabit.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\FoodHabit.cs",
+              "RelativeDocumentMoniker": "Entities\\FoodHabit.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\FoodHabit.cs",
+              "RelativeToolTip": "Entities\\FoodHabit.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:55:00.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DietitianCertificate.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianCertificate.cs",
+              "RelativeDocumentMoniker": "Entities\\DietitianCertificate.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianCertificate.cs",
+              "RelativeToolTip": "Entities\\DietitianCertificate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:53:10.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DietitianPatient.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianPatient.cs",
+              "RelativeDocumentMoniker": "Entities\\DietitianPatient.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianPatient.cs",
+              "RelativeToolTip": "Entities\\DietitianPatient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:52:16.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DietType.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietType.cs",
+              "RelativeDocumentMoniker": "Entities\\DietType.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietType.cs",
+              "RelativeToolTip": "Entities\\DietType.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:21:23.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DietitianReview.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianReview.cs",
+              "RelativeDocumentMoniker": "Entities\\DietitianReview.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianReview.cs",
+              "RelativeToolTip": "Entities\\DietitianReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:02:53.473Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "DietitianProfile.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\DietitianProfile.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Entities\\DietitianProfile.cs",
+              "RelativeToolTip": "Entities\\DietitianProfile.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:38:21.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAANIBAAAAAAAAAAAqwOoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:07:44.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DietitianController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Controllers\\DietitianController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DietitianController.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Controllers\\DietitianController.cs",
+              "RelativeToolTip": "Controllers\\DietitianController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:07:40.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAmwKkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:07:35.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T11:06:35.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T11:06:27.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAiwKAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:05:33.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "DietTracking.API",
-              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\DietTracking.API.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
               "RelativeDocumentMoniker": "DietTracking.API.csproj",
-              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\DietTracking.API.csproj",
+              "ToolTip": "C:\\Users\\\u0130zzet\\Desktop\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
               "RelativeToolTip": "DietTracking.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-13T11:03:53.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T11:03:53.164Z"
             }
           ]
         }
