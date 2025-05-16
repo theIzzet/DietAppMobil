@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8Eh9c8qEiARIYz4MbNCVbwHpSY8OUuF/boB+AcqMF4g=",
+  "Hash": "BcLhAT8L1gJQwnmIvq5EiDEuqM/L9FzXoddrJo40xGY=",
   "Source": "DietTracking.API",
   "BasePath": "_content/DietTracking.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DietTracking.API\\wwwroot",
       "Source": "DietTracking.API",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Certificates/21f29406-397a-44c8-8473-4957dfba05ae#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Certificates/6a766961-a3a5-4342-a13d-291937a000a8#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Certificates/a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Dietitian/Certificates/0d1be873-f379-4896-abfa-87e61a5438d9#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Dietitian/Certificates/4ea0b716-c8ea-41a4-b816-82cf7569ab32#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Measurements/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Measurements/45d3595a-de9b-42a0-b3c4-d41f613a62e4#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Measurements/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Measurements/f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/TestResults/55c1533b-b799-4067-862c-3cedc1411041#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Transkripts/74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Transkripts/bc27e455-0ed5-4f40-95f4-2c59983d0318#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf"
     },
     {
-      "Identity": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
+      "Identity": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
       "SourceId": "DietTracking.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\",
       "BasePath": "_content/DietTracking.API",
       "RelativePath": "Uploads/Transkripts/bf477bda-1c62-4e6a-9d36-62d9c9380fde#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -293,7 +293,7 @@
   "Endpoints": [
     {
       "Route": "Uploads/Certificates/21f29406-397a-44c8-8473-4957dfba05ae.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -314,7 +314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -330,7 +330,7 @@
     },
     {
       "Route": "Uploads/Certificates/21f29406-397a-44c8-8473-4957dfba05ae.zg7itfehw2.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\21f29406-397a-44c8-8473-4957dfba05ae.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -351,7 +351,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -375,7 +375,7 @@
     },
     {
       "Route": "Uploads/Certificates/6a766961-a3a5-4342-a13d-291937a000a8.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -396,7 +396,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -412,7 +412,7 @@
     },
     {
       "Route": "Uploads/Certificates/6a766961-a3a5-4342-a13d-291937a000a8.zg7itfehw2.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\6a766961-a3a5-4342-a13d-291937a000a8.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -433,7 +433,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -457,7 +457,7 @@
     },
     {
       "Route": "Uploads/Certificates/a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.8he4iiqh5t.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -478,7 +478,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -502,7 +502,7 @@
     },
     {
       "Route": "Uploads/Certificates/a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Certificates\\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -523,7 +523,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -539,7 +539,7 @@
     },
     {
       "Route": "Uploads/Dietitian/Certificates/0d1be873-f379-4896-abfa-87e61a5438d9.8he4iiqh5t.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -560,7 +560,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -584,7 +584,7 @@
     },
     {
       "Route": "Uploads/Dietitian/Certificates/0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\0d1be873-f379-4896-abfa-87e61a5438d9.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -605,7 +605,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -621,7 +621,7 @@
     },
     {
       "Route": "Uploads/Dietitian/Certificates/4ea0b716-c8ea-41a4-b816-82cf7569ab32.keg0mz4tvh.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -642,7 +642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -666,7 +666,7 @@
     },
     {
       "Route": "Uploads/Dietitian/Certificates/4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\4ea0b716-c8ea-41a4-b816-82cf7569ab32.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -687,7 +687,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -703,7 +703,7 @@
     },
     {
       "Route": "Uploads/Measurements/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.8he4iiqh5t.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -724,7 +724,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -748,7 +748,7 @@
     },
     {
       "Route": "Uploads/Measurements/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf/44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf\\44c7bf67-ae5d-4dbe-bfaa-b7bacddebd75.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -769,7 +769,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -785,7 +785,7 @@
     },
     {
       "Route": "Uploads/Measurements/45d3595a-de9b-42a0-b3c4-d41f613a62e4.8he4iiqh5t.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -806,7 +806,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -830,7 +830,7 @@
     },
     {
       "Route": "Uploads/Measurements/45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\45d3595a-de9b-42a0-b3c4-d41f613a62e4.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -851,7 +851,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -867,7 +867,7 @@
     },
     {
       "Route": "Uploads/Measurements/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.8he4iiqh5t.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -888,7 +888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -912,7 +912,7 @@
     },
     {
       "Route": "Uploads/Measurements/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf/51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf\\51db02fb-e0b5-458c-a9cc-aec5c3dcd0cf.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -933,7 +933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -949,7 +949,7 @@
     },
     {
       "Route": "Uploads/Measurements/f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.8he4iiqh5t.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -970,7 +970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -994,7 +994,7 @@
     },
     {
       "Route": "Uploads/Measurements/f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Measurements\\f85ce2ae-7ce6-4883-a18f-b28b7c65d3d7.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1015,7 +1015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1031,7 +1031,7 @@
     },
     {
       "Route": "Uploads/TestResults/55c1533b-b799-4067-862c-3cedc1411041.8he4iiqh5t.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1052,7 +1052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1076,7 +1076,7 @@
     },
     {
       "Route": "Uploads/TestResults/55c1533b-b799-4067-862c-3cedc1411041.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\TestResults\\55c1533b-b799-4067-862c-3cedc1411041.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1097,7 +1097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:02 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1113,7 +1113,7 @@
     },
     {
       "Route": "Uploads/Transkripts/74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.8he4iiqh5t.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1134,7 +1134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:03 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1158,7 +1158,7 @@
     },
     {
       "Route": "Uploads/Transkripts/74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\74ae674c-6d70-48ea-ab47-5fd8dfbbd2a7.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1179,7 +1179,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:03 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1195,7 +1195,7 @@
     },
     {
       "Route": "Uploads/Transkripts/bc27e455-0ed5-4f40-95f4-2c59983d0318.emc0tzk936.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1216,7 +1216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:03 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1240,7 +1240,7 @@
     },
     {
       "Route": "Uploads/Transkripts/bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bc27e455-0ed5-4f40-95f4-2c59983d0318.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1261,7 +1261,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:03 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1277,7 +1277,7 @@
     },
     {
       "Route": "Uploads/Transkripts/bf477bda-1c62-4e6a-9d36-62d9c9380fde.emc0tzk936.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1298,7 +1298,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:03 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1322,7 +1322,7 @@
     },
     {
       "Route": "Uploads/Transkripts/bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
-      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
+      "AssetFile": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Transkripts\\bf477bda-1c62-4e6a-9d36-62d9c9380fde.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1343,7 +1343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:50:03 GMT"
+          "Value": "Thu, 15 May 2025 16:04:21 GMT"
         },
         {
           "Name": "Cache-Control",

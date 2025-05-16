@@ -123,6 +123,20 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddSignalR();                             // ← ekle
 
 var app = builder.Build();
+
+
+
+using (var scope = app.Services.CreateScope())
+{
+   
+
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    await DataSeeder.SeedDietTypes(context);
+}
+
+
+
+
 app.Use(async (context, next) =>
 {
     Console.WriteLine($"Request Path: {context.Request.Path}");

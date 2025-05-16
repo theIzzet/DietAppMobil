@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\DietTracking.API.csproj": {}
+    "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\DietTracking.API.csproj": {
+    "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\DietTracking.API.csproj",
+        "projectUniqueName": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
         "projectName": "DietTracking.API",
-        "projectPath": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\DietTracking.API.csproj",
+        "projectPath": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
         "packagesPath": "C:\\Users\\İzzet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\İzzet\\Desktop\\DietTracking.API\\DietTracking.API\\DietTracking.API\\obj\\",
+        "outputPath": "C:\\Users\\İzzet\\Desktop\\DietAppMobil\\DietTracking.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

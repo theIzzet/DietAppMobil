@@ -3,6 +3,7 @@ using System;
 using DietTracking.API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,43 +11,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DietTracking.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250516002928_DietTypeMig")]
+    partial class DietTypeMig
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
-
-            modelBuilder.Entity("DietApp.Entities.Comment", b =>
-                {
-                    b.Property<int>("CommentId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("CommentText")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("DPId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<DateTime>("PublishedOn")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("Rating")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("CommentId");
-
-                    b.HasIndex("DPId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Comments");
-                });
 
             modelBuilder.Entity("DietApp.Entities.DietType", b =>
                 {
@@ -220,9 +192,6 @@ namespace DietTracking.API.Migrations
                     b.Property<DateTime>("DateReceived")
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("DietitianProfileId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("FilePath")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -239,8 +208,6 @@ namespace DietTracking.API.Migrations
 
                     b.HasIndex("ApplicationUserId");
 
-                    b.HasIndex("DietitianProfileId");
-
                     b.ToTable("DietitianCertificates");
                 });
 
@@ -253,9 +220,6 @@ namespace DietTracking.API.Migrations
                     b.Property<string>("ApplicationUserId")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int?>("DietitianProfileId")
-                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime?>("EndDate")
                         .HasColumnType("TEXT");
@@ -274,8 +238,6 @@ namespace DietTracking.API.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ApplicationUserId");
-
-                    b.HasIndex("DietitianProfileId");
 
                     b.ToTable("DietitianExperiences");
                 });
@@ -903,25 +865,6 @@ namespace DietTracking.API.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("DietApp.Entities.Comment", b =>
-                {
-                    b.HasOne("DietTracking.API.Entities.DietitianProfile", "DP")
-                        .WithMany("Comments")
-                        .HasForeignKey("DPId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("DietTracking.API.Models.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("DP");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("DietPlan", b =>
                 {
                     b.HasOne("DietTracking.API.Models.ApplicationUser", "Dietitian")
@@ -990,10 +933,6 @@ namespace DietTracking.API.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DietTracking.API.Entities.DietitianProfile", null)
-                        .WithMany("DietitianCertificates")
-                        .HasForeignKey("DietitianProfileId");
-
                     b.Navigation("User");
                 });
 
@@ -1004,10 +943,6 @@ namespace DietTracking.API.Migrations
                         .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("DietTracking.API.Entities.DietitianProfile", null)
-                        .WithMany("DietitianExperience")
-                        .HasForeignKey("DietitianProfileId");
 
                     b.Navigation("User");
                 });
@@ -1218,15 +1153,6 @@ namespace DietTracking.API.Migrations
             modelBuilder.Entity("DietPlan", b =>
                 {
                     b.Navigation("Entries");
-                });
-
-            modelBuilder.Entity("DietTracking.API.Entities.DietitianProfile", b =>
-                {
-                    b.Navigation("Comments");
-
-                    b.Navigation("DietitianCertificates");
-
-                    b.Navigation("DietitianExperience");
                 });
 
             modelBuilder.Entity("DietTracking.API.Models.ApplicationUser", b =>
