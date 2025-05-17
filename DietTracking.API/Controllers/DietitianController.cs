@@ -54,36 +54,61 @@ namespace DietTracking.API.Controllers
         // ───────────────────────────────────────────────────────────────
 
 
-        [HttpGet("profile")]
-        [Authorize(Roles = "Diyetisyen")]
-        public async Task<IActionResult> GetDietitianProfile()
+  [HttpGet("profile")]
+[Authorize(Roles = "Diyetisyen")]
+public async Task<IActionResult> GetDietitianProfile()
+{
+    var profile = await _context.DietitianProfiles
+        .Include(p => p.DietTypes)
+        .Include(p => p.DietitianCertificates) // Sertifikaları dahil ettik
+        .Include(p => p.User)
+        .FirstOrDefaultAsync(x => x.ApplicationUserId == DietitianId);
+
+    if (profile == null)
+        return NotFound();
+
+    var dto = new DietitianProfileDto
+    {
+        Id = profile.Id,
+        UserId = profile.ApplicationUserId,
+        Name = profile.User?.Name,
+        Surname = profile.User?.Surname,
+        About = profile.About,
+        ProfilePhotoPath = profile.ProfilePhotoPath,
+        Specialties = profile.Specialties?.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList(),
+        WorkHours = profile.WorkHours,
+        ClinicName = profile.ClinicName,
+        ServiceDiets = profile.ServiceDiets?.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList(),
+        DietTypes = profile.DietTypes.Select(dt => new DietTypeDto
         {
+            Id = dt.Id,
+            Title = dt.Title,
+            Description = dt.Description,
+            About = dt.About,
+            PicturePath = dt.PicturePath
+        }).ToList(),
+        Certificates = profile.DietitianCertificates.Select(c => new CertificateDto
+        {
+            Id = c.Id,
+            CertificateName = c.CertificateName,
+            FilePath = c.FilePath,
+            DateReceived = c.DateReceived,
+            QualificationUrl = c.QualificationUrl,
+            Issuer = c.Issuer
+        }).ToList()
+    };
 
-            var diyetisyten = await _context.DietitianProfiles
-                .FirstOrDefaultAsync(x => x.ApplicationUserId == DietitianId);
-            if (diyetisyten == null) return NotFound();
+    return Ok(dto);
+}
 
-            var dto = new DietitianProfileDto
-            {
-                About = diyetisyten.About,
-                ProfilePhotoPath = diyetisyten.ProfilePhotoPath,
-                Specialties = diyetisyten.Specialties.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList(),
-                WorkHours = diyetisyten.WorkHours,
-                ClinicName = diyetisyten.ClinicName,
-                ServiceDiets = diyetisyten.ServiceDiets.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList()
-            };
-            return Ok(dto);
-        }
 
         [HttpPost("profile")]
         [Authorize(Roles = "Diyetisyen")]
         public async Task<IActionResult> CreateProfile([FromForm] UpsertDietitianProfileDto dto)
         {
-
             if (await _context.DietitianProfiles.AnyAsync(x => x.ApplicationUserId == DietitianId))
                 return BadRequest("Bu kullanıcının profili zaten mevcut.");
 
-            // ==> DTO'dan entity'ye manuel atama
             var profile = new DietitianProfile
             {
                 ApplicationUserId = DietitianId,
@@ -94,7 +119,6 @@ namespace DietTracking.API.Controllers
                 ServiceDiets = string.Join(',', dto.ServiceDiets)
             };
 
-            // Profil fotoğrafı varsa kaydet
             if (dto.ProfilePhoto != null)
             {
                 var fileName = Guid.NewGuid() + Path.GetExtension(dto.ProfilePhoto.FileName);
@@ -108,37 +132,38 @@ namespace DietTracking.API.Controllers
                 profile.ProfilePhotoPath = Path.Combine("Uploads", "Dietitian", "ProfilePhotos", fileName);
             }
 
+            if (dto.DietTypeIds != null && dto.DietTypeIds.Count > 0)
+            {
+                profile.DietTypes = await _context.DietTypes.Where(d => dto.DietTypeIds.Contains(d.Id)).ToListAsync();
+            }
+
             _context.DietitianProfiles.Add(profile);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetDietitianProfile), null, dto);
+            return CreatedAtAction(nameof(GetDietitianProfile), null, profile);
         }
 
-        // -----------------  PUT  /api/dietitianpanel/profile  -----------------
         [HttpPut("profile")]
         [Authorize(Roles = "Diyetisyen")]
         public async Task<IActionResult> UpdateProfile([FromForm] UpsertDietitianProfileDto dto)
         {
-
             var profile = await _context.DietitianProfiles
+                .Include(p => p.DietTypes)
                 .FirstOrDefaultAsync(x => x.ApplicationUserId == DietitianId);
 
             if (profile == null) return NotFound();
 
-            // ==> DTO'dan entity'ye manuel güncelleme
             profile.About = dto.About;
             profile.Specialties = string.Join(',', dto.Specialties);
             profile.WorkHours = dto.WorkHours;
             profile.ClinicName = dto.ClinicName;
             profile.ServiceDiets = string.Join(',', dto.ServiceDiets);
 
-            // Profil fotoğrafı güncelleme
             if (dto.ProfilePhoto != null)
             {
-                // Eski dosyayı sil (isteğe bağlı)
                 if (!string.IsNullOrEmpty(profile.ProfilePhotoPath))
                 {
-                    var oldFull = Path.Combine(_env.WebRootPath, profile.ProfilePhotoPath);
-                    if (System.IO.File.Exists(oldFull)) System.IO.File.Delete(oldFull);
+                    var oldPath = Path.Combine(_env.WebRootPath, profile.ProfilePhotoPath);
+                    if (System.IO.File.Exists(oldPath)) System.IO.File.Delete(oldPath);
                 }
 
                 var fileName = Guid.NewGuid() + Path.GetExtension(dto.ProfilePhoto.FileName);
@@ -152,6 +177,17 @@ namespace DietTracking.API.Controllers
                 profile.ProfilePhotoPath = Path.Combine("Uploads", "Dietitian", "ProfilePhotos", fileName);
             }
 
+            // Update diet types
+            if (dto.DietTypeIds != null)
+            {
+                var selectedDietTypes = await _context.DietTypes.Where(d => dto.DietTypeIds.Contains(d.Id)).ToListAsync();
+                profile.DietTypes.Clear();
+                foreach (var dt in selectedDietTypes)
+                {
+                    profile.DietTypes.Add(dt);
+                }
+            }
+
             await _context.SaveChangesAsync();
             return NoContent();
         }
@@ -160,18 +196,14 @@ namespace DietTracking.API.Controllers
         [Authorize(Roles = "Diyetisyen")]
         public async Task<IActionResult> DeleteProfile()
         {
-
-
             var profile = await _context.DietitianProfiles
                 .FirstOrDefaultAsync(x => x.ApplicationUserId == DietitianId);
             if (profile == null) return NotFound();
 
-            // Profil fotoğrafını da silelim (opsiyonel)
             if (!string.IsNullOrEmpty(profile.ProfilePhotoPath))
             {
                 var fullPath = Path.Combine(_env.WebRootPath, profile.ProfilePhotoPath);
-                if (System.IO.File.Exists(fullPath))
-                    System.IO.File.Delete(fullPath);
+                if (System.IO.File.Exists(fullPath)) System.IO.File.Delete(fullPath);
             }
 
             _context.DietitianProfiles.Remove(profile);
