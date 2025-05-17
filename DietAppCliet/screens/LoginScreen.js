@@ -37,9 +37,9 @@ const LoginScreen = ({ navigation }) => {
       console.log('Kullanıcı rolü:', role);
 
       if (role === 'Danisan') {
-        navigation.replace('Dashboard');
+        navigation.replace('CheckForms'); // ← Danışan ise form kontrol ekranına
       } else if (role === 'Diyetisyen') {
-        navigation.replace('DietitianDrawer'); // ← BURASI düzeltildi
+        navigation.replace('DietitianDrawer');
       } else {
         Alert.alert('Bilinmeyen Rol', 'Giriş başarılı ancak rol tanımlı değil.');
         navigation.replace('Login');

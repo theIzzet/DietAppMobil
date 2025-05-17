@@ -10,8 +10,12 @@ import RegisterDietitianScreen from './screens/RegisterDietitianScreen';
 import DashboardScreen from './screens/DashboardScreen';
 import DietitianPanel from './screens/DietitianPanel';
 import EditDietitianProfile from './screens/EditDietitianProfile';
-import PatientsScreen from './screens/PatientsScreen'; // 💡 yeni eklenecek
-import LogoutScreen from './screens/LogoutScreen';     // 💡 yeni eklenecek
+import PatientsScreen from './screens/PatientsScreen'; 
+import LogoutScreen from './screens/LogoutScreen';     
+import FillFormsScreen from './screens/FillFormsScreen';
+import CheckFormsScreen from './screens/CheckFormsScreen';
+
+
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -31,7 +35,10 @@ export default function App() {
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={LoginScreen} options={{ title: 'Giriş' }} />
         <Stack.Screen name="Register" component={RegisterScreen} options={{ title: 'Danışan Kayıt' }} />
+       
         <Stack.Screen name="RegisterDietitian" component={RegisterDietitianScreen} options={{ title: 'Diyetisyen Kayıt' }} />
+       <Stack.Screen name="CheckForms" component={CheckFormsScreen} options={{ headerShown: false }} />
+<Stack.Screen name="FillForms" component={FillFormsScreen} options={{ title: 'Form Doldur' }} />
         <Stack.Screen name="Dashboard" component={DashboardScreen} options={{ title: 'Danışan Paneli' }} />
         <Stack.Screen name="DietitianDrawer" component={DietitianDrawer} options={{ headerShown: false }} />
           <Stack.Screen name="EditDietitianProfile" component={EditDietitianProfile} options={{ title: 'Profil Düzenle' }} />

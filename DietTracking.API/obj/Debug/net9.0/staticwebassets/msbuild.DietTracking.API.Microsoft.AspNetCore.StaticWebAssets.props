@@ -54,12 +54,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Certificates\a49e4cdf-36e5-4dbd-a0b0-5ab25c36243f.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\10e59ccc-b926-4b6a-9113-a1bc634091ae.pdf'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\abf2351d-7214-43b5-a56f-3384a3606314.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>DietTracking.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/DietTracking.API</BasePath>
-      <RelativePath>Uploads/Dietitian/Certificates/10e59ccc-b926-4b6a-9113-a1bc634091ae.pdf</RelativePath>
+      <RelativePath>Uploads/Dietitian/Certificates/abf2351d-7214-43b5-a56f-3384a3606314.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -70,7 +70,7 @@
       <Integrity>tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\10e59ccc-b926-4b6a-9113-a1bc634091ae.pdf'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\abf2351d-7214-43b5-a56f-3384a3606314.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\ProfilePhotos\e2ac15bd-e154-4bb5-9b1a-33bb95d1e204.jpeg'))">
       <SourceType>Package</SourceType>
