@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DietTracking.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+550f31647723dc46ce66d7c47451261e9ee45e58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bea8308dd13c7b9a675bca64979e30908ad4a24e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DietTracking.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DietTracking.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
