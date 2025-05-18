@@ -280,6 +280,13 @@
                     "items": {
                       "type": "string"
                     }
+                  },
+                  "DietTypeIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
                   }
                 }
               },
@@ -300,6 +307,9 @@
                   "style": "form"
                 },
                 "ServiceDiets": {
+                  "style": "form"
+                },
+                "DietTypeIds": {
                   "style": "form"
                 }
               }
@@ -346,6 +356,13 @@
                     "items": {
                       "type": "string"
                     }
+                  },
+                  "DietTypeIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
                   }
                 }
               },
@@ -366,6 +383,9 @@
                   "style": "form"
                 },
                 "ServiceDiets": {
+                  "style": "form"
+                },
+                "DietTypeIds": {
                   "style": "form"
                 }
               }
@@ -1557,6 +1577,36 @@
         },
         "additionalProperties": false
       },
+      "CertificateDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "certificateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "filePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateReceived": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "qualificationUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "issuer": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "ChatSendDto": {
         "type": "object",
         "properties": {
@@ -1785,6 +1835,20 @@
             "type": "array",
             "items": {
               "type": "string"
+            },
+            "nullable": true
+          },
+          "dietTypes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DietTypeDto"
+            },
+            "nullable": true
+          },
+          "certificates": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CertificateDto"
             },
             "nullable": true
           }
