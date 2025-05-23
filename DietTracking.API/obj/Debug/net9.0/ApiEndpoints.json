@@ -150,6 +150,79 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DietTracking.API.Controllers.DemandController",
+    "Method": "CreateDemand",
+    "RelativePath": "api/demand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.CreateDemandDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DemandController",
+    "Method": "UpdateDemandStatus",
+    "RelativePath": "api/demand/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "DietTracking.API.DTO.UpdateDemandStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DemandController",
+    "Method": "CheckDemandStatus",
+    "RelativePath": "api/demand/check-status/{dietitianId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dietitianId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DemandController",
+    "Method": "GetReceivedDemands",
+    "RelativePath": "api/demand/received",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DietTracking.API.Controllers.DemandController",
+    "Method": "GetSentDemands",
+    "RelativePath": "api/demand/sent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DietTracking.API.Controllers.DietitianController",
     "Method": "GetAllFormsOfPatient",
     "RelativePath": "api/dietitian/all/{patientId}",

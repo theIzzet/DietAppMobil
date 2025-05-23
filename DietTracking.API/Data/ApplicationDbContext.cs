@@ -40,6 +40,8 @@ namespace DietTracking.API.Data
 
         public DbSet<Comment> Comments => Set<Comment>();
 
+        public DbSet<Demand> Demands => Set<Demand>();
+
 
     }
 }

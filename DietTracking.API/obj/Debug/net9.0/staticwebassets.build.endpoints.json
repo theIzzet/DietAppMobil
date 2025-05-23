@@ -331,6 +331,88 @@
       ]
     },
     {
+      "Route": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.3j2a3w4u7a.pptx",
+      "AssetFile": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8476146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 14:29:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3j2a3w4u7a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM="
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx"
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx",
+      "AssetFile": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8476146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 14:29:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM="
+        }
+      ]
+    },
+    {
       "Route": "Uploads/Dietitian/ProfilePhotos/e2ac15bd-e154-4bb5-9b1a-33bb95d1e204.dfi1j6ranp.jpeg",
       "AssetFile": "Uploads/Dietitian/ProfilePhotos/e2ac15bd-e154-4bb5-9b1a-33bb95d1e204.jpeg",
       "Selectors": [],

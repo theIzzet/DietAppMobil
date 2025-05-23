@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oMKvQ07n9I5B6BDjARbjADwXEgbzmEnUm1tB2YjWE5U=",
+  "Hash": "Ci3CmhWTs2Lyi20IDa9cQ2ab8m7WE7BrVld9sG32ivI=",
   "Source": "DietTracking.API",
   "BasePath": "_content/DietTracking.API",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\Dietitian\\Certificates\\abf2351d-7214-43b5-a56f-3384a3606314.pdf"
+    },
+    {
+      "Identity": "D:\\reactnativemobil\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\f8e2d937-952a-490f-9111-798bded894d6.pptx",
+      "SourceId": "DietTracking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\reactnativemobil\\DietAppMobil\\DietTracking.API\\wwwroot\\",
+      "BasePath": "_content/DietTracking.API",
+      "RelativePath": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6#[.{fingerprint}]?.pptx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3j2a3w4u7a",
+      "Integrity": "sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Dietitian\\Certificates\\f8e2d937-952a-490f-9111-798bded894d6.pptx"
     },
     {
       "Identity": "D:\\reactnativemobil\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\ProfilePhotos\\e2ac15bd-e154-4bb5-9b1a-33bb95d1e204.jpeg",
@@ -616,6 +637,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE+C2foqFU3M="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.3j2a3w4u7a.pptx",
+      "AssetFile": "D:\\reactnativemobil\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\f8e2d937-952a-490f-9111-798bded894d6.pptx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8476146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 14:29:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3j2a3w4u7a"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx",
+      "AssetFile": "D:\\reactnativemobil\\DietAppMobil\\DietTracking.API\\wwwroot\\Uploads\\Dietitian\\Certificates\\f8e2d937-952a-490f-9111-798bded894d6.pptx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8476146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 14:29:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM="
         }
       ]
     },

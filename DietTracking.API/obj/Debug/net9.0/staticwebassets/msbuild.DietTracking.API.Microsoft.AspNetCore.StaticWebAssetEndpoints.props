@@ -48,6 +48,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE\u002BC2foqFU3M="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"829122"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022tCN9PGr5VXW/twgUQsxz6OEhqo76TwsnE\u002BC2foqFU3M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 May 2025 11:56:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DietTracking.API/Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.3j2a3w4u7a.pptx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\f8e2d937-952a-490f-9111-798bded894d6.pptx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3j2a3w4u7a"},{"Name":"integrity","Value":"sha256-sbEg5d1Ey\u002BLz\u002BmgVeKI5fMhOHtpA/k4Qqg7oxGitvQM="},{"Name":"label","Value":"_content/DietTracking.API/Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8476146"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.presentationml.presentation"},{"Name":"ETag","Value":"\u0022sbEg5d1Ey\u002BLz\u002BmgVeKI5fMhOHtpA/k4Qqg7oxGitvQM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 14:29:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DietTracking.API/Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\f8e2d937-952a-490f-9111-798bded894d6.pptx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sbEg5d1Ey\u002BLz\u002BmgVeKI5fMhOHtpA/k4Qqg7oxGitvQM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8476146"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.presentationml.presentation"},{"Name":"ETag","Value":"\u0022sbEg5d1Ey\u002BLz\u002BmgVeKI5fMhOHtpA/k4Qqg7oxGitvQM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 14:29:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DietTracking.API/Uploads/Dietitian/ProfilePhotos/e2ac15bd-e154-4bb5-9b1a-33bb95d1e204.dfi1j6ranp.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\ProfilePhotos\e2ac15bd-e154-4bb5-9b1a-33bb95d1e204.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

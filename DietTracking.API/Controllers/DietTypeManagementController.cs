@@ -162,7 +162,7 @@ namespace DietTracking.API.Controllers
                         Surname = dp.User.Surname,
                         About = dp.About,
                         ProfilePhotoPath = dp.ProfilePhotoPath,
-                        Specialties = dp.Specialties,
+                        Specialties = dp.Specialties.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList(), // String'i listeye çevir
                         WorkHours = dp.WorkHours,
                         ClinicName = dp.ClinicName,
                         ServiceDiets = dp.ServiceDiets,
@@ -199,7 +199,6 @@ namespace DietTracking.API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
             }
         }
-
         /// <summary>
         /// Adds a new comment to a dietitian's profile
         /// </summary>

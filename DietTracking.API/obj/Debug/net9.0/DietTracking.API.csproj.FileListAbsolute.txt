@@ -1417,3 +1417,4 @@ D:\reactnativemobil\DietAppMobil\DietTracking.API\obj\Debug\net9.0\refint\DietTr
 D:\reactnativemobil\DietAppMobil\DietTracking.API\obj\Debug\net9.0\DietTracking.API.pdb
 D:\reactnativemobil\DietAppMobil\DietTracking.API\obj\Debug\net9.0\DietTracking.API.genruntimeconfig.cache
 D:\reactnativemobil\DietAppMobil\DietTracking.API\obj\Debug\net9.0\ref\DietTracking.API.dll
+D:\reactnativemobil\DietAppMobil\DietTracking.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

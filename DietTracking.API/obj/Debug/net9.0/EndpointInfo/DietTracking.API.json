@@ -235,6 +235,126 @@
         }
       }
     },
+    "/api/demand/sent": {
+      "get": {
+        "tags": [
+          "Demand"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/demand/received": {
+      "get": {
+        "tags": [
+          "Demand"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/demand": {
+      "post": {
+        "tags": [
+          "Demand"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDemandDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDemandDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDemandDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/demand/{id}": {
+      "put": {
+        "tags": [
+          "Demand"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDemandStatusDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDemandStatusDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDemandStatusDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/demand/check-status/{dietitianId}": {
+      "get": {
+        "tags": [
+          "Demand"
+        ],
+        "parameters": [
+          {
+            "name": "dietitianId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/dietitian/profile": {
       "get": {
         "tags": [
@@ -1659,6 +1779,16 @@
         },
         "additionalProperties": false
       },
+      "CreateDemandDto": {
+        "type": "object",
+        "properties": {
+          "dietitianId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateReviewDto": {
         "required": [
           "dietitianId",
@@ -1753,7 +1883,10 @@
             "nullable": true
           },
           "specialties": {
-            "type": "string",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
             "nullable": true
           },
           "workHours": {
@@ -1779,6 +1912,13 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/CommentDto"
+            },
+            "nullable": true
+          },
+          "certificates": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CertificateDto"
             },
             "nullable": true
           },
@@ -2079,6 +2219,19 @@
           }
         },
         "additionalProperties": { }
+      },
+      "UpdateDemandStatusDto": {
+        "type": "object",
+        "properties": {
+          "isApproved": {
+            "type": "boolean"
+          },
+          "rejectionReason": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "UpsertDietPlanDto": {
         "type": "object",

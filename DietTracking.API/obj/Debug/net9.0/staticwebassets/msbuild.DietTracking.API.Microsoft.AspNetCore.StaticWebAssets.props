@@ -72,6 +72,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\abf2351d-7214-43b5-a56f-3384a3606314.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\f8e2d937-952a-490f-9111-798bded894d6.pptx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DietTracking.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DietTracking.API</BasePath>
+      <RelativePath>Uploads/Dietitian/Certificates/f8e2d937-952a-490f-9111-798bded894d6.pptx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3j2a3w4u7a</Fingerprint>
+      <Integrity>sbEg5d1Ey+Lz+mgVeKI5fMhOHtpA/k4Qqg7oxGitvQM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\Certificates\f8e2d937-952a-490f-9111-798bded894d6.pptx'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Dietitian\ProfilePhotos\e2ac15bd-e154-4bb5-9b1a-33bb95d1e204.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>DietTracking.API</SourceId>

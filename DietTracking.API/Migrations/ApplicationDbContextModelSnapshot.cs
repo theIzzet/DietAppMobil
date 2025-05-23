@@ -203,6 +203,38 @@ namespace DietTracking.API.Migrations
                     b.ToTable("ChatMessages");
                 });
 
+            modelBuilder.Entity("DietTracking.API.Entities.Demand", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("DietitianId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("RejectionReason")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("SendTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("SenderId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DietitianId");
+
+                    b.HasIndex("SenderId");
+
+                    b.ToTable("Demands");
+                });
+
             modelBuilder.Entity("DietTracking.API.Entities.DietitianCertificate", b =>
                 {
                     b.Property<int>("Id")
@@ -982,6 +1014,25 @@ namespace DietTracking.API.Migrations
                     b.Navigation("ToUser");
                 });
 
+            modelBuilder.Entity("DietTracking.API.Entities.Demand", b =>
+                {
+                    b.HasOne("DietTracking.API.Entities.DietitianProfile", "Receiver")
+                        .WithMany("Demands")
+                        .HasForeignKey("DietitianId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DietTracking.API.Models.ApplicationUser", "Sender")
+                        .WithMany("Demands")
+                        .HasForeignKey("SenderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Receiver");
+
+                    b.Navigation("Sender");
+                });
+
             modelBuilder.Entity("DietTracking.API.Entities.DietitianCertificate", b =>
                 {
                     b.HasOne("DietTracking.API.Models.ApplicationUser", "User")
@@ -1224,6 +1275,8 @@ namespace DietTracking.API.Migrations
                 {
                     b.Navigation("Comments");
 
+                    b.Navigation("Demands");
+
                     b.Navigation("DietitianCertificates");
 
                     b.Navigation("DietitianExperience");
@@ -1231,6 +1284,8 @@ namespace DietTracking.API.Migrations
 
             modelBuilder.Entity("DietTracking.API.Models.ApplicationUser", b =>
                 {
+                    b.Navigation("Demands");
+
                     b.Navigation("PhysicalActivity")
                         .IsRequired();
                 });

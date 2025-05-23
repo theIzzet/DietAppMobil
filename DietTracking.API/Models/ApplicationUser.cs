@@ -14,7 +14,7 @@ namespace DietTracking.API.Models
         public PhysicalActivity PhysicalActivity { get; set; }
 
 
-
-      
+        public ICollection<Demand> Demands { get; set; } = new List<Demand>();
+        
     }
 }

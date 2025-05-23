@@ -30,6 +30,7 @@ namespace DietTracking.API.Entities
         public ICollection<DietitianCertificate> DietitianCertificates { get; set; } = new List<DietitianCertificate>();
 
         public ICollection<DietitianExperience> DietitianExperience { get; set; }= new List<DietitianExperience>();
+        public ICollection<Demand> Demands { get; set; }=new List<Demand>();
 
     }
 }
