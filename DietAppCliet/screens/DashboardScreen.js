@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet, Image, FlatList, ActivityIndicator } from 'react-native';
 import { removeToken } from '../utils/storage';
@@ -105,6 +104,10 @@ const DashboardScreen = ({ navigation: drawerNavigation }) => {
     drawerNavigation.replace('Login');
   };
 
+  const handleShowDiet = () => {
+    navigation.navigate('ShowDiet');
+  };
+
   if (loading) {
     return (
       <View style={styles.loadingContainer}>
@@ -116,14 +119,17 @@ const DashboardScreen = ({ navigation: drawerNavigation }) => {
 
   return (
     <View style={styles.container}>
-      <LinearGradient
-        colors={['#6a11cb', '#2575fc']}
-        style={styles.header}
-      >
+      <LinearGradient colors={['#6a11cb', '#2575fc']} style={styles.header}>
         <Text style={styles.headerTitle}>Hizmetlerimiz</Text>
-        <TouchableOpacity onPress={handleLogout} style={styles.logoutButton}>
-          <Ionicons name="log-out-outline" size={24} color="#fff" />
-        </TouchableOpacity>
+        <View style={{ flexDirection: 'row', gap: 10 }}>
+          <TouchableOpacity onPress={handleShowDiet} style={styles.myDietButton}>
+            <Ionicons name="list-outline" size={22} color="#fff" />
+            <Text style={styles.myDietButtonText}>Diyet Listem</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={handleLogout} style={styles.logoutButton}>
+            <Ionicons name="log-out-outline" size={24} color="#fff" />
+          </TouchableOpacity>
+        </View>
       </LinearGradient>
 
       {selectedDietType ? (
@@ -205,8 +211,22 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#fff',
   },
+  myDietButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#10b981',
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 8,
+  },
+  myDietButtonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    marginLeft: 6,
+  },
   logoutButton: {
     padding: 5,
+    marginLeft: 10,
   },
   loadingContainer: {
     flex: 1,

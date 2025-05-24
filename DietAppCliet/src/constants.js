@@ -1,2 +1,2 @@
 // constants.js
-export const BASE_URL = 'http://10.0.3.255:5063';
+export const BASE_URL = 'http://172.16.1.194:5063';

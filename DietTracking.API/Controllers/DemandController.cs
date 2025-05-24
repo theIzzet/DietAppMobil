@@ -160,7 +160,39 @@ namespace DietTracking.API.Controllers
             }
         }
 
-        
+[Authorize(Roles = "Diyetisyen")]
+[HttpGet("patients")]
+public async Task<IActionResult> GetAcceptedPatients()
+{
+    var dietitianUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+    var dietitianProfileId = await _context.DietitianProfiles
+        .Where(d => d.ApplicationUserId == dietitianUserId)
+        .Select(d => d.Id)
+        .FirstOrDefaultAsync();
+
+    if (dietitianProfileId == 0)
+        return NotFound("Diyetisyen profili bulunamadı.");
+
+    var acceptedDemands = await _context.Demands
+        .Include(d => d.Sender)
+        .Where(d => d.DietitianId == dietitianProfileId && d.State == "Onaylandı") // 🔥 Kritik filtre
+        .GroupBy(d => d.SenderId)
+        .Select(g => g.OrderByDescending(d => d.SendTime).FirstOrDefault())
+        .Select(d => new
+        {
+            PatientId = d.Sender.Id,
+            PatientName = d.Sender.Name,
+            PatientEmail = d.Sender.Email,
+            AssignedAt = d.SendTime,
+            State = d.State // 🔥 Bunu eklemezsen frontend filtre çalışmaz
+        })
+        .ToListAsync();
+
+    return Ok(acceptedDemands);
+}
+
+
         [HttpGet("check-status/{dietitianId}")]
         public async Task<IActionResult> CheckDemandStatus(int dietitianId)
         {
