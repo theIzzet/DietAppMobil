@@ -5235,11 +5235,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Salih\\Desktop\\mob\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
+      "projectUniqueName": "C:\\Users\\Salih\\Desktop\\clone\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
       "projectName": "DietTracking.API",
-      "projectPath": "C:\\Users\\Salih\\Desktop\\mob\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
+      "projectPath": "C:\\Users\\Salih\\Desktop\\clone\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
       "packagesPath": "C:\\Users\\Salih\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Salih\\Desktop\\mob\\DietAppMobil\\DietTracking.API\\obj\\",
+      "outputPath": "C:\\Users\\Salih\\Desktop\\clone\\DietAppMobil\\DietTracking.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Salih\\AppData\\Roaming\\NuGet\\NuGet.Config"
