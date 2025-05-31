@@ -1,9 +1,12 @@
 // App.js
 import 'react-native-gesture-handler';
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+import {
+  createDrawerNavigator, DrawerContentScrollView,
+  DrawerItemList
+} from '@react-navigation/drawer';
 
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
@@ -21,12 +24,24 @@ import ShowDiet from './screens/ShowDiet';
 import CalorieBurnScreen from './screens/CalorieBurnScreen';
 import MotivationScreen from './screens/MotivationScreen';
 import DashboardScreen from './screens/DashboardScreen';
-
+import { ThemeProvider } from './context/ThemeContext';
+import ThemeToggle from './components/ThemeToggle';
+import { useTheme } from './context/ThemeContext';
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
+
 const DietitianDrawer = () => (
-  <Drawer.Navigator initialRouteName="DietitianPanel">
+  <Drawer.Navigator
+    initialRouteName="DietitianPanel"
+    drawerContent={(props) => (<>
+      <DrawerContentScrollView {...props}>
+        <DrawerItemList {...props} />
+        <ThemeToggle />
+      </DrawerContentScrollView>
+    </>
+    )}
+  >
     <Drawer.Screen name="DietitianPanel" component={DietitianPanel} options={{ title: 'Dietapp' }} />
     <Drawer.Screen name="EditDietitianProfile" component={EditDietitianProfile} options={{ title: 'Profil Düzenle' }} />
     <Drawer.Screen name="DemandsScreen" component={DemandsScreen} options={{ title: 'Gelen Talepler' }} />
@@ -36,7 +51,18 @@ const DietitianDrawer = () => (
 );
 
 const DashboardDrawer = () => (
-  <Drawer.Navigator initialRouteName="DashboardMain">
+  <Drawer.Navigator
+    initialRouteName="DashboardMain"
+    drawerContent={(props) => (
+      <>
+        <DrawerContentScrollView {...props}>
+          <DrawerItemList {...props} />
+          <ThemeToggle />
+        </DrawerContentScrollView>
+      </>
+    )}
+  >
+
     <Drawer.Screen name="DashboardMain" component={DashboardScreen} options={{ title: 'Dietapp' }} />
     <Drawer.Screen name="ShowDiet" component={ShowDiet} options={{ title: 'Diyet Listem' }} />
     <Drawer.Screen name="CalorieBurn" component={CalorieBurnScreen} options={{ title: 'Kalori Yakım' }} />
@@ -46,7 +72,19 @@ const DashboardDrawer = () => (
 
 export default function App() {
   return (
-    <NavigationContainer>
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
+  );
+}
+
+
+
+function AppContent() {
+  const { isDark } = useTheme();
+
+  return (
+    <NavigationContainer theme={isDark ? DarkTheme : DefaultTheme}>
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={LoginScreen} options={{ title: 'Giriş' }} />
         <Stack.Screen name="Register" component={RegisterScreen} options={{ title: 'Danışan Kayıt' }} />
@@ -62,3 +100,4 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
