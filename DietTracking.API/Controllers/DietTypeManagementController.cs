@@ -6,6 +6,10 @@ using DietTracking.API.Models;
 using Microsoft.AspNetCore.Authorization;
 using DietApp.Entities;
 using DietTracking.API.DTO;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Text.Json;
 
 namespace DietTracking.API.Controllers
 {
@@ -229,7 +233,7 @@ namespace DietTracking.API.Controllers
                 }
 
                 
-                var dietitian = await _context.DietitianProfiles.FindAsync(dietitianId);
+                var dietitian = await _context.DietitianProfiles.Include(d => d.User).Where(d => d.Id == dietitianId).FirstOrDefaultAsync();
                 if (dietitian == null)
                 {
                     return NotFound($"Dietitian with ID {dietitianId} not found.");
@@ -266,6 +270,29 @@ namespace DietTracking.API.Controllers
                     UserName = user.Name,
                     UserSurname = user.Surname
                 };
+
+
+                if (!string.IsNullOrEmpty(dietitian?.User?.ExpoPushToken))
+                {
+
+                    var pushBody = new
+                    {
+                        to = dietitian.User.ExpoPushToken,
+                        title = "Yeni Yorum!",
+                        body = $"{user.Name} sizin profilinize yorum yaptı!",
+                        data = new { commentId = comment.CommentId }
+                    };
+
+                    using (var client = new HttpClient())
+                    {
+                        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                        var json = JsonSerializer.Serialize(pushBody);
+                        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                        await client.PostAsync("https://exp.host/--/api/v2/push/send", content);
+                    }
+
+                }
 
                 return CreatedAtAction(nameof(GetDietitianById), new { id = dietitianId }, commentDto);
             }

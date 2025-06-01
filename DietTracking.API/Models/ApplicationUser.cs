@@ -10,6 +10,7 @@ namespace DietTracking.API.Models
         public string Surname { get; set; }
         public string? GraduationCertificatePath { get; set; }
         public string? TranskriptPath { get; set; }
+        public string? ExpoPushToken { get; set; }
 
         public PhysicalActivity PhysicalActivity { get; set; }
 

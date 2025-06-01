@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "859304369698",
+    "project_id": "dietapp-ff188",
+    "storage_bucket": "dietapp-ff188.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859304369698:android:78f290b6129dcaae5eb47b",
+        "android_client_info": {
+          "package_name": "com.votigon.DietAppMobil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz3bmX3X5dC0eI7N_PCQeQNWx_i4oT2o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
