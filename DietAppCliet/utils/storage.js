@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { jwtDecode } from 'jwt-decode';
 
 export const storeToken = async (token) => {
   try {
@@ -22,5 +23,19 @@ export const removeToken = async () => {
     await AsyncStorage.removeItem('authToken');
   } catch (e) {
     console.error('Token silinemedi:', e);
+  }
+};
+
+
+export const getUserId = async () => {
+  try {
+    const token = await getToken();
+    if (!token) return null;
+
+    const decoded = jwtDecode(token);
+    return decoded.sub;
+  } catch (e) {
+    console.error('Kullanıcı ID alınamadı:', e);
+    return null;
   }
 };
