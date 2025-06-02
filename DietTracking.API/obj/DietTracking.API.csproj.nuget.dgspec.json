@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MobilKolone\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj": {}
+    "D:\\StorageData\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj": {}
   },
   "projects": {
-    "D:\\MobilKolone\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj": {
+    "D:\\StorageData\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MobilKolone\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
+        "projectUniqueName": "D:\\StorageData\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
         "projectName": "DietTracking.API",
-        "projectPath": "D:\\MobilKolone\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
+        "projectPath": "D:\\StorageData\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
         "packagesPath": "C:\\Users\\İzzet\\.nuget\\packages\\",
-        "outputPath": "D:\\MobilKolone\\DietAppMobil\\DietTracking.API\\obj\\",
+        "outputPath": "D:\\StorageData\\DietAppMobil\\DietTracking.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

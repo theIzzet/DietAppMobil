@@ -27,6 +27,8 @@ import DashboardScreen from './screens/DashboardScreen';
 import { ThemeProvider } from './context/ThemeContext';
 import ThemeToggle from './components/ThemeToggle';
 import { useTheme } from './context/ThemeContext';
+import BodyTrackingScreen from './screens/BodyTrackingScreen';
+
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
@@ -64,6 +66,7 @@ const DashboardDrawer = () => (
   >
 
     <Drawer.Screen name="DashboardMain" component={DashboardScreen} options={{ title: 'Dietapp' }} />
+    <Drawer.Screen name="BodyTracking" component={BodyTrackingScreen} options={{ title: 'Vücut Form Takibi' }} />
     <Drawer.Screen name="ShowDiet" component={ShowDiet} options={{ title: 'Diyet Listem' }} />
     <Drawer.Screen name="CalorieBurn" component={CalorieBurnScreen} options={{ title: 'Kalori Yakım' }} />
     <Drawer.Screen name="Motivation" component={MotivationScreen} options={{ title: 'Günün Motivasyonu' }} />
