@@ -733,6 +733,9 @@ namespace DietTracking.API.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("ExpoPushToken")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("GraduationCertificatePath")
                         .HasColumnType("TEXT");
 
