@@ -55,8 +55,9 @@ Preference kullanımı ve async-storege kullanımının incelenmesi için şu do
 
 
 
+**6-Broadcast Receiver:** Broadcast Receiver için diyetisyenlerin hesaplarına yorum atıldığında diyetisyenlerin telefonuna bildirim gönderilmesi işlemi yapılmıştır. Bu işlem expo-notifications ve expo-device kütüphaneleriyle sağlanmıştır. Uygulamaya giriş yapan diyetisyenlerin cihazlarına özel oluşan tokenler hesaplarıyla ilişkilendirilir ve danışan bir diyetisyene yorum yaptığında bu diyetisyenin tokeni veri tabanından alınıp sunucuya bu tokene/cihaza bildirim gönderme isteği yapılır. Bu sayede diyetisyenlerin telefonuna uygulama açık olmasa dahi bildirim gönderilmiş olur. İlgili işlemler DietAppCliet/screens/DashboardScreen.js, DietAppCliet/screens/DietitianPanel.js, DietTracking.API/Controllers/NotificationController.cs, DietTracking.API/Controllers/DietTypeManagementController dosyalarında yapılmıştır.
 
-
-
+**Sorumlu Kişi:** Volkan Mutlu
+**İlgili Branch:** develop-broadcast_receiver
 
 
