@@ -29,7 +29,7 @@ Preference kullanımı ve async-storege kullanımının incelenmesi için şu do
 
 **2- Storage Data:** Storage data için diyetisyene danışan danışmanlar(hastalar) için form takip sistemi tasarlanmıştır. Danışanlar burada sisteme mevcut form durumunu tarihiyle birlikte ekleyebilir resim olarak. Storage kapsamında app-specific  kullanıma yönelik dosya sistemi üzerine uygulamalar var. Bu uygulamada kullanıcıların yüklediği vücut fotoğrafları, cihazın uygulamaya özel (app-specific) depolama alanında saklanıyor. Bunun için **npx expo install expo-file-system** eklendi. 
 
-**Sorumlu Kişi:** İzzet Esener
+**Sorumlu Kişi:** İzzet Esener <br>
 **İlgili Branch:** develop-storage-data
 
 ---
