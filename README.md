@@ -8,6 +8,14 @@ iletişim ve geri bildirim mekanizması sunmaktır. Diyetisyenler farklı diyet 
 diyeti, vegan diyeti vb.) uzmanlıklarını sisteme tanımlayabilirken, danışanlar ihtiyaçlarına göre seçim 
 yapabilir, önceki kullanıcı yorumlarını inceleyebilir. Danışan istediği diyetisyene talep gönderebilir ve diyetisyenin talebi onaylaması durumunda artık diyetisyen hizmeti alabilir. Diyetisyen ilgili danışana özel bilgilerine göre ve isteklerine göre doğru programını hazırlar.
 
+# Proje Kurulum
+Projeyi klonlamak içim: git clone https://github.com/theIzzet/DietAppMobil.git
+
+Proje Visual Stıdio Code aracılığıyla geliştirilmiştir.
+Restful, Asp .NET Core Web Api 9.0 ile geliştirilmiştir ve dosyaları DietTracking.API klasörü içerisindedir. çalıştırılması için proje klonlandıktan sonra açıldığında cd DietTracking.API komutu ile ilgili dizine gidilir ve dotnet run komutu ile çalıştırılır.
+
+Arayüz için React Native kullanılmıştır. ilgili dizine cd DietAppCliet ile geçilir. npm install komutu ile npm kütüphanesi indirilir. Daha sonra npx expo start komutu ile çalıştırılır ve terminaldeki qr kod okutularak uygulama çalıştırılır. **Projenin geliştirildiği cihaz ile bağlanacak telefon aynı interneti kullanmalıdır.Ayrıca restful ve ui eş zamanlı çalıştırılımalıdır.**
+
 # Özellikler
 
 **1- Basic Data:** Basic data için projeye karanlık mod seçeneği eklenmiştir. Basic data için preferences kullanımı sağlanmıştır. Bunun için react native de bulunan async - storage kullanılmıştır. Bunun için kullanılan eklenti şu şekilde sisteme eklendi: **npm install @react-native-async-storage/async-storage**. 
