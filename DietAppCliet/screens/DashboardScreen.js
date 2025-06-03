@@ -6,6 +6,8 @@ import { BASE_URL } from '../src/constants';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
+import * as Notifications from "expo-notifications";
+import * as Device from "expo-device";
 
 const DietTypeCard = ({ dietType, onPress }) => {
   return (
@@ -74,6 +76,32 @@ const DashboardScreen = () => {
         setLoading(false);
       }
     };
+
+    async function prepare() {
+
+      if (Device.isDevice) {
+        const { status } = await Notifications.requestPermissionsAsync();
+
+        if (status === "granted") {
+          
+          const result = await Notifications.getExpoPushTokenAsync();
+          
+          // console.log("Expo Push Token: ", result.data);
+
+          await api.post('/notification/register-token', {
+            expoPushToken: result.data
+          });
+
+          
+        } else {
+          Alert.alert("Bildirim özelliği için lütfen bildirimlere izin verin");
+        }
+      } else {
+        Alert.alert("Bildirim özelliği için lütfen fiziksel cihaz kullanın");
+      }
+    }
+
+    prepare();
 
     fetchDietTypes();
   }, []);

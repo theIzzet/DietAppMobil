@@ -11,6 +11,8 @@ import {
 import { useFocusEffect } from '@react-navigation/native';
 import api from '../api';
 import { BASE_URL } from '../src/constants';
+import * as Notifications from "expo-notifications";
+import * as Device from "expo-device";
 
 const DietitianPanel = ({ navigation }) => {
   const [profile, setProfile] = useState(null);
@@ -46,6 +48,32 @@ const DietitianPanel = ({ navigation }) => {
         'hardwareBackPress',
         backAction
       );
+
+      async function prepare() {
+
+        if (Device.isDevice) {
+          const { status } = await Notifications.requestPermissionsAsync();
+
+          if (status === "granted") {
+            
+            const result = await Notifications.getExpoPushTokenAsync();
+            
+            // console.log("Expo Push Token: ", result.data);
+
+            await api.post('/notification/register-token', {
+              expoPushToken: result.data
+            });
+
+            
+          } else {
+            Alert.alert("Bildirim özelliği için lütfen bildirimlere izin verin");
+          }
+        } else {
+          Alert.alert("Bildirim özelliği için lütfen fiziksel cihaz kullanın");
+        }
+      }
+
+      prepare();
 
       return () => backHandler.remove();
     }, [])
