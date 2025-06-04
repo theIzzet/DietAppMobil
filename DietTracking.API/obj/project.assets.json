@@ -5230,26 +5230,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Volkan\\.nuget\\packages\\": {}
+    "C:\\Users\\Salih\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Volkan\\Desktop\\Diet-Proje\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
+      "projectUniqueName": "C:\\Users\\Salih\\Desktop\\clo\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
       "projectName": "DietTracking.API",
-      "projectPath": "C:\\Users\\Volkan\\Desktop\\Diet-Proje\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
-      "packagesPath": "C:\\Users\\Volkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Volkan\\Desktop\\Diet-Proje\\DietAppMobil\\DietTracking.API\\obj\\",
+      "projectPath": "C:\\Users\\Salih\\Desktop\\clo\\DietAppMobil\\DietTracking.API\\DietTracking.API.csproj",
+      "packagesPath": "C:\\Users\\Salih\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Salih\\Desktop\\clo\\DietAppMobil\\DietTracking.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Volkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Salih\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5328,7 +5326,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

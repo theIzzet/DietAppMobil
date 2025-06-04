@@ -12,7 +12,7 @@ import axios from 'axios';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 
-const OPENROUTER_API_KEY = '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';
+const OPENROUTER_API_KEY = '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';
 
 const MotivationScreen = () => {
   const [message, setMessage] = useState(null);
