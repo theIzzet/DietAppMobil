@@ -18,7 +18,9 @@ Arayüz için React Native kullanılmıştır. ilgili dizine cd DietAppCliet ile
 
 # Özellikler
 
-**1- Basic Data:** Basic data için projeye karanlık mod seçeneği eklenmiştir. Basic data için preferences kullanımı sağlanmıştır. Bunun için react native de bulunan async - storage kullanılmıştır. Bunun için kullanılan eklenti şu şekilde sisteme eklendi: **npm install @react-native-async-storage/async-storage**. 
+**1-Basic/Storage Data**
+
+** Basic Data:** Basic data için projeye karanlık mod seçeneği eklenmiştir. Basic data için preferences kullanımı sağlanmıştır. Bunun için react native de bulunan async - storage kullanılmıştır. Bunun için kullanılan eklenti şu şekilde sisteme eklendi: **npm install @react-native-async-storage/async-storage**. 
 Preference kullanımı ve async-storege kullanımının incelenmesi için şu dosyaya göz atılmalıdır: DietAppCliet/context/ThemeContext.js.
 
 
@@ -27,14 +29,17 @@ Preference kullanımı ve async-storege kullanımının incelenmesi için şu do
 
 ---
 
-**2- Storage Data:** Storage data için diyetisyene danışan danışmanlar(hastalar) için form takip sistemi tasarlanmıştır. Danışanlar burada sisteme mevcut form durumunu tarihiyle birlikte ekleyebilir resim olarak. Storage kapsamında app-specific  kullanıma yönelik dosya sistemi üzerine uygulamalar var. Bu uygulamada kullanıcıların yüklediği vücut fotoğrafları, cihazın uygulamaya özel (app-specific) depolama alanında saklanıyor. Bunun için **npx expo install expo-file-system** eklendi. 
+** Storage Data:** Storage data için diyetisyene danışan danışmanlar(hastalar) için form takip sistemi tasarlanmıştır. Danışanlar burada sisteme mevcut form durumunu tarihiyle birlikte ekleyebilir resim olarak. Storage kapsamında app-specific  kullanıma yönelik dosya sistemi üzerine uygulamalar var. Bu uygulamada kullanıcıların yüklediği vücut fotoğrafları, cihazın uygulamaya özel (app-specific) depolama alanında saklanıyor. Bunun için **npx expo install expo-file-system** eklendi. 
 
 **Sorumlu Kişi:** İzzet Esener <br>
 **İlgili Branch:** develop-storage-data
 
 ---
+**2-LocalDatabase**: Projede LocalDatabase özelliği bulunmamaktadır.
 
-**3- RESTFul API:** Projede Asp .NET Core Web Api 9.0 kullanılmıştır. DietTracking.API klasörü restfulu içermektedir. 
+---
+
+**3- RESTFul API (CRUD):** Projede Asp .NET Core Web Api 9.0 kullanılmıştır. DietTracking.API klasörü restfulu içermektedir. 
 
 **Sorumlu Kişi:** Kerem Kartal
 **İlgili Branch:** develop-restful-storage
@@ -47,11 +52,15 @@ Preference kullanımı ve async-storege kullanımının incelenmesi için şu do
 **İlgili Branch:** develop-ui
 
 ---
+**5-Background Process / Task:** Background Process / Task özelliği kapsamında, kullanıcıların belirli aralıklarla su içmeyi hatırlamasını sağlayan bir sistem geliştirilmiştir. Kullanıcı, hatırlatma sistemini bir butonla aktif veya pasif hale getirebilir. Bu işlem, uygulama ekranından kontrol edilebilecek bir arayüz ile desteklenmiştir.
+useState ve Context API kullanılarak hatırlatma durumu (isReminderActive) global olarak yönetilir.
+Kullanıcı butona bastığında isReminderActive değeri güncellenir.
+UI üzerinde yeşil/kırmızı renk değişimi ile hatırlatma durumu görsel olarak belirtilir.
+ReminderContext sayesinde diğer bileşenler de bu durumu okuyabilir ve arka plan görevlerini buna göre kontrol edebilir.
+Arka planda çalışan hatırlatma sistemiyle kullanıcıya belirli zaman aralıklarında su içmesi gerektiği bildirilir. Sistem, ReminderContext ile global bir state yönetimi sağlar.
 
-**5-Authorization:** JWT tabanlı güvenli oturum yönetimi uygulanmıştır.Token üretimi TokenService.cs dosyasında gerçekleştirilir. Projede ilgili bölüm: DietTracking.API/Services/TokenService.cs 
-
-**Sorumlu Kişi:** Kerem Kartal
-**İlgili Branch:** develop-authorization
+Sorumlu Kişi: Salih Can Turan
+İlgili Branch: develop-Background_process
 
 ---
 
@@ -61,5 +70,30 @@ Preference kullanımı ve async-storege kullanımının incelenmesi için şu do
 
 **Sorumlu Kişi:** Volkan Mutlu
 **İlgili Branch:** develop-broadcast_receiver
+
+---
+
+**7-Sensor (Motion / Location / Environment):** Sensor özelliği kapsamında cihazın hareket sensörü (accelerometer) kullanılarak adım sayımı yapılmakta ve buna bağlı olarak yakılan kalori hesaplanmaktadır. Bu işlem, React Native ortamında expo-sensors kütüphanesi üzerinden gerçekleştirilmiştir. expo-sensors kütüphanesinden Accelerometer kullanılarak cihazın x, y, z eksenlerindeki ivme değerleri alınır. Hareket şiddetindeki ani değişimlere göre adım sayısı artırılır. Bu, belirli bir eşik değeri (peakThreshold = 0.6) ve zaman aralığı (minStepInterval = 250ms) ile kontrol edilir.
+Her adım sonrası yaklaşık kalori değeri (adım × 0.04 kcal) olarak hesaplanır. Bu değerler günlük olarak yerel veritabanı olan SQLite’a kaydedilir (steps.db). Uygulama her başlatıldığında bugünkü kayıt kontrol edilir ve kaldığı yerden devam eder.
+
+ilgili branch: develop-sensor
+Sorumlu Kişi: Salih Can Turan
+
+**8-Connectivity (BLE / Wifi / Cellular Network / USB / NFC):** Connectivity için uygulamanın kalori yakım sayfasına BLE(Bluetooth Low Energy) cihazlarına bağlanma ve veri çekme işlemi eklenmiştir, bu işlem ile yakındaki akıllı saatler uygulama üzerinden algılanmakta ve bu cihazlarla bağlantı kurulabilmekte daha sonra "Adımları Senkronize Et" butonuna basılarak akıllı saatin adım sayısı bizim uygulamamıza getirilmekte ve uygulama üzerindeki adım sayısı ile akıllı saatimizin adım sayısı senkronize edilir. Bu işlem için react-native-ble-plx ve react-native-base64 kütüphaneleri kullanılmıştır.
+İlgili işlemler CalorieBurnScreen.js üzerinde yapılmıştır.
+
+**Sorumlu Kişi:** Volkan Mutlu
+
+**İlgili Branch:** develop-connectivity
+
+
+
+**9-Authorization:** JWT tabanlı güvenli oturum yönetimi uygulanmıştır.Token üretimi TokenService.cs dosyasında gerçekleştirilir. Projede ilgili bölüm: DietTracking.API/Services/TokenService.cs 
+
+**Sorumlu Kişi:** Kerem Kartal
+
+**İlgili Branch:** develop-authorization
+
+
 
 
