@@ -18,9 +18,11 @@ Arayüz için React Native kullanılmıştır. ilgili dizine cd DietAppCliet ile
 
 # Özellikler
 
+---
+
 **1-Basic/Storage Data**
 
-** Basic Data:** Basic data için projeye karanlık mod seçeneği eklenmiştir. Basic data için preferences kullanımı sağlanmıştır. Bunun için react native de bulunan async - storage kullanılmıştır. Bunun için kullanılan eklenti şu şekilde sisteme eklendi: **npm install @react-native-async-storage/async-storage**. 
+**Basic Data:** Basic data için projeye karanlık mod seçeneği eklenmiştir. Basic data için preferences kullanımı sağlanmıştır. Bunun için react native de bulunan async - storage kullanılmıştır. Bunun için kullanılan eklenti şu şekilde sisteme eklendi: **npm install @react-native-async-storage/async-storage**. 
 Preference kullanımı ve async-storege kullanımının incelenmesi için şu dosyaya göz atılmalıdır: DietAppCliet/context/ThemeContext.js.
 
 
@@ -28,9 +30,9 @@ Preference kullanımı ve async-storege kullanımının incelenmesi için şu do
 
 **İlgili Branch:** develop-basic_data
 
----
 
-** Storage Data:** Storage data için diyetisyene danışan danışmanlar(hastalar) için form takip sistemi tasarlanmıştır. Danışanlar burada sisteme mevcut form durumunu tarihiyle birlikte ekleyebilir resim olarak. Storage kapsamında app-specific  kullanıma yönelik dosya sistemi üzerine uygulamalar var. Bu uygulamada kullanıcıların yüklediği vücut fotoğrafları, cihazın uygulamaya özel (app-specific) depolama alanında saklanıyor. Bunun için **npx expo install expo-file-system** eklendi. 
+
+**Storage Data:** Storage data için diyetisyene danışan danışmanlar(hastalar) için form takip sistemi tasarlanmıştır. Danışanlar burada sisteme mevcut form durumunu tarihiyle birlikte ekleyebilir resim olarak. Storage kapsamında app-specific  kullanıma yönelik dosya sistemi üzerine uygulamalar var. Bu uygulamada kullanıcıların yüklediği vücut fotoğrafları, cihazın uygulamaya özel (app-specific) depolama alanında saklanıyor. Bunun için **npx expo install expo-file-system** eklendi. 
 
 **Sorumlu Kişi:** İzzet Esener
 
@@ -50,15 +52,36 @@ Preference kullanımı ve async-storege kullanımının incelenmesi için şu do
 
 ---
 
-**4- UI:** Projede UI olarak React Native kullanılmıştır. Expo paketi ile proje mobilde çalıştırılmıştır.
+**4- UI:** Projede UI olarak React Native kullanılmıştır. Expo paketi ile proje mobilde çalıştırılmıştır. İlgili dosyalar DietAppCliet dizini altındadır.
 
-**Sorumlu Kişi:** İzzet Esener, Salih Can Turan
+**api.js:** Axios tabanlı HTTP istekleri yönetimi için konfigürasyon. Tüm API çağrılarında otomatik token ekler.
+
+**constants.js:** Uygulama genelinde kullanılan sabitler (API URL'leri gibi) burada tanımlanır.
+
+**App.js:** Uygulamanın ana giriş noktası. Navigasyon yapısını ve temel provider'ları içerir.
+
+**app.json:** Expo uygulamasının yapılandırma dosyası. Platforma özel ayarlar ve izinler burada tanımlı.
+
+**package.json:** Proje bağımlılıklarını ve script'leri yönetir. Kullanılan tüm kütüphaneler burada listelenir.
+
+**ThemeContext.js:** Karanlık/açık tema yönetimi sağlar. AsyncStorage ile kullanıcı tercihini hatırlar.
+
+**ReminderContext.js:** Su hatırlatıcı özelliğinin durumunu yönetir. Global state sağlar.
+
+**screens/:** Tüm ekran bileşenlerini içeren klasör. Her dosya bir uygulama ekranını temsil eder.
+
+**components/:** Tekrar kullanılabilir UI bileşenlerini içerir (butonlar, kartlar vb.).
+
+
+
+
+**Sorumlu Kişi:** İzzet Esener
 
 **İlgili Branch:** develop-ui
 
 ---
 
-**5-Background Process / Task:** Background Process / Task özelliği kapsamında, kullanıcıların belirli aralıklarla su içmeyi hatırlamasını sağlayan bir sistem geliştirilmiştir. Kullanıcı, hatırlatma sistemini bir butonla aktif veya pasif hale getirebilir. Bu işlem, uygulama ekranından kontrol edilebilecek bir arayüz ile desteklenmiştir.
+**5- Background Process / Task:** Background Process / Task özelliği kapsamında, kullanıcıların belirli aralıklarla su içmeyi hatırlamasını sağlayan bir sistem geliştirilmiştir. Kullanıcı, hatırlatma sistemini bir butonla aktif veya pasif hale getirebilir. Bu işlem, uygulama ekranından kontrol edilebilecek bir arayüz ile desteklenmiştir.
 useState ve Context API kullanılarak hatırlatma durumu (isReminderActive) global olarak yönetilir.
 Kullanıcı butona bastığında isReminderActive değeri güncellenir.
 UI üzerinde yeşil/kırmızı renk değişimi ile hatırlatma durumu görsel olarak belirtilir.
@@ -71,7 +94,7 @@ Arka planda çalışan hatırlatma sistemiyle kullanıcıya belirli zaman aralı
 
 ---
 
-**6-Broadcast Receiver:** Broadcast Receiver için diyetisyenlerin hesaplarına yorum atıldığında diyetisyenlerin telefonuna bildirim gönderilmesi işlemi yapılmıştır. Bu işlem **expo-notifications ve expo-device** kütüphaneleriyle sağlanmıştır. Uygulamaya giriş yapan diyetisyenlerin cihazlarına özel oluşan tokenler hesaplarıyla ilişkilendirilir ve danışan bir diyetisyene yorum yaptığında bu diyetisyenin tokeni veri tabanından alınıp sunucuya bu tokene/cihaza bildirim gönderme isteği yapılır. Bu sayede diyetisyenlerin telefonuna uygulama açık olmasa dahi bildirim gönderilmiş olur. 
+**6- Broadcast Receiver:** Broadcast Receiver için diyetisyenlerin hesaplarına yorum atıldığında diyetisyenlerin telefonuna bildirim gönderilmesi işlemi yapılmıştır. Bu işlem **expo-notifications ve expo-device** kütüphaneleriyle sağlanmıştır. Uygulamaya giriş yapan diyetisyenlerin cihazlarına özel oluşan tokenler hesaplarıyla ilişkilendirilir ve danışan bir diyetisyene yorum yaptığında bu diyetisyenin tokeni veri tabanından alınıp sunucuya bu tokene/cihaza bildirim gönderme isteği yapılır. Bu sayede diyetisyenlerin telefonuna uygulama açık olmasa dahi bildirim gönderilmiş olur. 
 
 **İlgili işlemler** DietAppCliet/screens/DashboardScreen.js, DietAppCliet/screens/DietitianPanel.js, DietTracking.API/Controllers/NotificationController.cs, DietTracking.API/Controllers/DietTypeManagementController dosyalarında yapılmıştır.
 
@@ -81,7 +104,7 @@ Arka planda çalışan hatırlatma sistemiyle kullanıcıya belirli zaman aralı
 
 ---
 
-**7-Sensor (Motion / Location / Environment):** Sensor özelliği kapsamında cihazın hareket sensörü (accelerometer) kullanılarak adım sayımı yapılmakta ve buna bağlı olarak yakılan kalori hesaplanmaktadır. Bu işlem, React Native ortamında expo-sensors kütüphanesi üzerinden gerçekleştirilmiştir. expo-sensors kütüphanesinden Accelerometer kullanılarak cihazın x, y, z eksenlerindeki ivme değerleri alınır. Hareket şiddetindeki ani değişimlere göre adım sayısı artırılır. Bu, belirli bir eşik değeri (peakThreshold = 0.6) ve zaman aralığı (minStepInterval = 250ms) ile kontrol edilir.
+**7- Sensor (Motion / Location / Environment):** Sensor özelliği kapsamında cihazın hareket sensörü (accelerometer) kullanılarak adım sayımı yapılmakta ve buna bağlı olarak yakılan kalori hesaplanmaktadır. Bu işlem, React Native ortamında expo-sensors kütüphanesi üzerinden gerçekleştirilmiştir. expo-sensors kütüphanesinden Accelerometer kullanılarak cihazın x, y, z eksenlerindeki ivme değerleri alınır. Hareket şiddetindeki ani değişimlere göre adım sayısı artırılır. Bu, belirli bir eşik değeri (peakThreshold = 0.6) ve zaman aralığı (minStepInterval = 250ms) ile kontrol edilir.
 Her adım sonrası yaklaşık kalori değeri (adım × 0.04 kcal) olarak hesaplanır. Bu değerler günlük olarak yerel veritabanı olan SQLite’a kaydedilir (steps.db). Uygulama her başlatıldığında bugünkü kayıt kontrol edilir ve kaldığı yerden devam eder.
 
 **İlgili branch:** develop-sensor
@@ -90,23 +113,26 @@ Her adım sonrası yaklaşık kalori değeri (adım × 0.04 kcal) olarak hesapla
 
 ---
 
-**8-Connectivity (BLE / Wifi / Cellular Network / USB / NFC):** Connectivity için uygulamanın kalori yakım sayfasına BLE(Bluetooth Low Energy) cihazlarına bağlanma ve veri çekme işlemi eklenmiştir, bu işlem ile yakındaki akıllı saatler uygulama üzerinden algılanmakta ve bu cihazlarla bağlantı kurulabilmekte daha sonra "Adımları Senkronize Et" butonuna basılarak akıllı saatin adım sayısı bizim uygulamamıza getirilmekte ve uygulama üzerindeki adım sayısı ile akıllı saatimizin adım sayısı senkronize edilir. Bu işlem için react-native-ble-plx ve react-native-base64 kütüphaneleri kullanılmıştır.
+**8- Connectivity (BLE / Wifi / Cellular Network / USB / NFC):** Connectivity için uygulamanın kalori yakım sayfasına BLE(Bluetooth Low Energy) cihazlarına bağlanma ve veri çekme işlemi eklenmiştir, bu işlem ile yakındaki akıllı saatler uygulama üzerinden algılanmakta ve bu cihazlarla bağlantı kurulabilmekte daha sonra "Adımları Senkronize Et" butonuna basılarak akıllı saatin adım sayısı bizim uygulamamıza getirilmekte ve uygulama üzerindeki adım sayısı ile akıllı saatimizin adım sayısı senkronize edilir. Bu işlem için react-native-ble-plx ve react-native-base64 kütüphaneleri kullanılmıştır.
 İlgili işlemler CalorieBurnScreen.js üzerinde yapılmıştır.
 
 **Sorumlu Kişi:** Volkan Mutlu
 
 **İlgili Branch:** develop-connectivity
 
+---
 
+**9- Authorization:** Projede JWT tabanlı bir kimlik doğrulama sistemi bulunuyor. Kullanıcılar "Danışan" veya "Diyetisyen" rollerine göre yetkilendiriliyor ve her işlem için token kontrolü yapılıyor. TokenService, kullanıcı bilgilerini ve rollerini içeren token'lar oluşturuyor.
 
-**9-Authorization:** JWT tabanlı güvenli oturum yönetimi uygulanmıştır.Token üretimi TokenService.cs dosyasında gerçekleştirilir. Projede ilgili bölüm: DietTracking.API/Services/TokenService.cs 
+Token üretimi TokenService.cs dosyasında gerçekleştirilir. Projede ilgili bölüm: DietTracking.API/Services/TokenService.cs 
 
 **Sorumlu Kişi:** Kerem Kartal
 
 **İlgili Branch:** develop-authorization
 
+---
 
-**10-Cloud Service :** Cloud Service (AI) özelliği kapsamında yapay zeka destekli motivasyon mesajı üretimi gerçekleştirilmiştir. Kullanıcı butona bastığında, axios aracılığıyla OpenRouter üzerinden GPT-3.5-Turbo modeline POST isteği yapılır. Yapay zeka tarafından oluşturulan kısa ve duygusal bir motivasyon mesajı ile birlikte, sağlıklı yaşamla ilgili bir bilgi (örneğin bir aktivitenin kalori değeri veya bir besinin besin değeri) kullanıcıya sunulur.
+**10- Cloud Service :** Cloud Service (AI) özelliği kapsamında yapay zeka destekli motivasyon mesajı üretimi gerçekleştirilmiştir. Kullanıcı butona bastığında, axios aracılığıyla OpenRouter üzerinden GPT-3.5-Turbo modeline POST isteği yapılır. Yapay zeka tarafından oluşturulan kısa ve duygusal bir motivasyon mesajı ile birlikte, sağlıklı yaşamla ilgili bir bilgi (örneğin bir aktivitenin kalori değeri veya bir besinin besin değeri) kullanıcıya sunulur.
 
 **Sorumlu Kişi:** Salih Can Turan
 
