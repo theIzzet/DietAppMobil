@@ -40,7 +40,8 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-sqlite"
+      "expo-sqlite",
+      "react-native-ble-plx"
     ],
     "extra": {
       "eas": {
