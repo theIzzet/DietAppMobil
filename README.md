@@ -24,6 +24,7 @@ Projenin geliştirme aşamasında her bir ekip üyesi en az 2 özellikte çalı�
 
 Proje gerçekleştirme sürecinde bin, obj gibi klasörlerde paket uyuşmazlıkları  yaşadık. Bu durum fazla vakit kaybına yol açtı. 
 
+---
 
 # Özellikler
 
@@ -146,4 +147,6 @@ Token üretimi TokenService.cs dosyasında gerçekleştirilir. Projede ilgili b�
 **Sorumlu Kişi:** Salih Can Turan
 
 **İlgili Branch:** develop-Cloud_service_ai
+
+
 
