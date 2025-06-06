@@ -16,6 +16,15 @@ Restful, Asp .NET Core Web Api 9.0 ile geliştirilmiştir ve dosyaları DietTrac
 
 Arayüz için React Native kullanılmıştır. ilgili dizine cd DietAppCliet ile geçilir. npm install komutu ile npm kütüphanesi indirilir. Daha sonra npx expo start komutu ile çalıştırılır ve terminaldeki qr kod okutularak uygulama çalıştırılır. **Projenin geliştirildiği cihaz ile bağlanacak telefon aynı interneti kullanmalıdır.Ayrıca restful ve ui eş zamanlı çalıştırılımalıdır.**
 
+---
+
+# Geliştirme Süreci
+
+Projenin geliştirme aşamasında her bir ekip üyesi en az 2 özellikte çalışma yaptı. Özellikler birbiriyle ilişkili olduğu için her ekip farklı branchlerde(özellik) de çalışma gerçekleştirdi. Haftalık PR ler oluşturularak ilgili projenin özellikleri develop branchine entegre edildi. En son develop branchinden main branche aktarıldı. 
+
+Proje gerçekleştirme sürecinde bin, obj gibi klasörlerde paket uyuşmazlıkları  yaşadık. Bu durum fazla vakit kaybına yol açtı. 
+
+
 # Özellikler
 
 ---
